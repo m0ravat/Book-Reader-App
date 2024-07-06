@@ -6,14 +6,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="/BookProject/style.css">
 </head>
-<body onload="bookInstance.printBooks()">
+<body>
     <h1>Book App</h1>
     <div class="cardGrid"></div>
     <div class="form">
         <h2>Add a Book</h2>
         <label for="bookName">Book Name: </label>
         <input type="text" name="bookName" id="bookName"> <br>
-        <button type="button" onclick="bookInstance.addBookToLibrary()">Input Book</button>
+        <button id="addBookBtn">Add Book</button>
     </div>
     <script src="/BookProject/jaavscript.js"></script>
 </body>
