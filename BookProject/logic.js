@@ -1,3 +1,4 @@
+console.log("HI");
 const container = document.querySelector(".cardGrid");
 class Book{
   constructor(name, read = "Reading") {
@@ -56,6 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   Book.printBooks();
 });
-
+console.log("Hi");
 
 
